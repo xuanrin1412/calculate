@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 232, 236);
+}
+.container {
+    width: 80%;
+    max-width: 400px;
+    margin: 80px auto 0;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.wrapper {
+    padding: 20px;
+}
+.displayNum {
+    height: 80px;
+    position: relative;
+}
+.number {
+    position: absolute;
+    width: 100%;
+    text-align: right;
+    right: 0;
+    bottom: 0;
+    font-size: 35px;
+    outline: none;
+}
+.calculate {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.calculate div {
+    display: flex;
+    justify-content: center;
+}
+.calculate input {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+.equal {
+    width: 125px !important;
+    text-align: center;
+}
